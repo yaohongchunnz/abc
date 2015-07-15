@@ -1,0 +1,26 @@
+{
+  "name": "abc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "angularjs": "^0.0.1"
+  },
+  "devDependencies": {
+    "angular": "^1.4.3",
+    "angularjs": "0.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhchun1992/abc.git"
+  },
+  "author": "Hong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yhchun1992/abc/issues"
+  },
+  "homepage": "https://github.com/yhchun1992/abc#readme"
+}
