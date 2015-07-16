@@ -27,10 +27,21 @@ abcApp.controller('galleryController', function ($scope) {
         $(document).ready(function () {
             $(".owl-carousel").owlCarousel({
                 items: 2,
-                lazyLoad: true,
-                loop: true,
                 margin: 10,
-                itemsScaleUp: true
+                responsiveClass: true,
+                loop: true,
+
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    1000: {
+                        items: 2,
+                        nav: true
+                    }
+                }
             });
         });
     });
